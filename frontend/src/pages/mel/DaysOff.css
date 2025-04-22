@@ -1,0 +1,31 @@
+.days-off-container {
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .calendar-container {
+    margin-bottom: 20px;
+  }
+  
+  .attendance-graph {
+    margin-top: 20px;
+  }
+  
+  .events {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .events li {
+    margin-bottom: 8px;
+  }
+  
+  .events .ant-badge-status {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    text-overflow: ellipsis;
+    font-size: 12px;
+  }

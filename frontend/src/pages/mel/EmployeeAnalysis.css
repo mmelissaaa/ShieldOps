@@ -1,0 +1,35 @@
+.analysis-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2, h3 {
+    color: #6a0dad;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #6a0dad;
+    color: white;
+  }
+  
+  .anomaly-table {
+    margin-top: 20px;
+    border: 2px solid red;
+  }
+  
+  .anomaly-table th {
+    background-color: red;
+  }
+  

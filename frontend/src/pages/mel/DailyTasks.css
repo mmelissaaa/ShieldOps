@@ -1,0 +1,135 @@
+.daily-tasks {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .add-task {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    flex: 1;
+    min-width: 150px;
+  }
+  
+  .add-task input,
+  .add-task select,
+  .add-task button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .add-task button {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-task button:hover {
+    background: #0056b3;
+  }
+  
+  .filter-tasks {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-tasks button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .filter-tasks button:hover {
+    background: #0056b3;
+  }
+  
+  .tasks-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background: white;
+  }
+  
+  .task-item.low {
+    border-left: 4px solid #28a745;
+  }
+  
+  .task-item.medium {
+    border-left: 4px solid #ffc107;
+  }
+  
+  .task-item.high {
+    border-left: 4px solid #dc3545;
+  }
+  
+  .task-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .task-content input[type="checkbox"] {
+    cursor: pointer;
+  }
+  
+  .task-content .completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .task-notes,
+  .task-due-date {
+    margin: 0;
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .delete-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background: #dc3545;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background: #c82333;
+  }
